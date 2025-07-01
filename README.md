@@ -83,12 +83,8 @@
 | 技术栈 | 介绍 |
 | :--- | :--- |
 | Vue | 渐进式 JavaScript 框架 |
-| Vuex | 专为 Vue.js 应用程序开发的状态管理模式 |
-| Vue Router | Vue.js 官方的路由管理器 |
-| Vue CLI | 基于 Vue.js 进行快速开发的完整系统 |
 | Vant | 轻量、可靠的移动端 Vue 组件库 |
-| Element-UI | 基于 Vue 2.0 的桌面端组件库 |
-| ES6 | JavaScript 语言的下一代标准 |
+| Element-UI | 基于 Vue 的桌面端组件库 |
 
 ### 2\. 后端技术栈
 
@@ -98,7 +94,6 @@
 | MYSQL | 要求5.7版本级以上 |
 | Redis | Key-Value数据库 |
 | Yii Framework | 大型 Web 应用的高性能 PHP 框架 |
-| RBAC | 基于角色的访问控制 |
 | RabbitMq | 基于AMQP协议的消息中间件 |
 | Jaeger | 分布式跟踪系统 |
 | Tablestore | 阿里云提供的Serverless分布式NoSQL数据库服务 |
@@ -110,15 +105,15 @@
 | :--- | :--- | :--- |
 | 首页 | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/11.png) | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/12.png) |
 | 商机 | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/21.png) | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/22.png) |
-| 商机分析 |  |  |
-| 联系人 |  |  |
-| 会话管理 |  |  |
-| 消息管理 |  |  |
-| 会话分析 |  |  |
-| 基础配置 |  |  |
-| AI分析配置 |  |  |
-| 知识集和敏感词 |  |  |
-| 标签库和话术库 |  |  |
+| 商机分析 | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/31.png) | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/32.png) |
+| 联系人 | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/41.png) | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/42.png) |
+| 会话管理 | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/51.png) | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/52.png) |
+| 消息管理 | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/61.png) | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/62.png) |
+| 会话分析 | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/71.png) | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/72.png) |
+| 基础配置 | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/81.png) | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/82.png) |
+| AI分析配置 | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/91.png) | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/92.png) |
+| 知识集和敏感词 | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/101.png) | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/102.png) |
+| 标签库和话术库 | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/111.png) | ![](https://public.yuzhua.com/ai-analysis-work-wechat/up/112.png) |
 
 ## 五、  迭代计划
 
@@ -129,13 +124,15 @@
 | v1.0.4 | 完善系统应用能力，通知、订单、工单、商品模块.... | 2025-10 |
 | ...... |  |  |
 
+## 六、  其他
+
 **圆弧SCRM的诞生**
 
 四川圆弧信息科技有限公司成立于2020年4月，也是四川鱼爪集团下的一个独立品牌。
 
-我们在漫长的市场探索和客户服务中，拓展了很多业务类型，其中包含了网店服务、商标服务、企业服务和代运营等B端市场的热门业务，在对接客户的过程中，发现解决“企业-员工-客户”连接的问题，离不开CRM，但调研了市面上的大部分CRM系统，发现很少有系统能完美符合我们如此复杂多样的业务场景，所以我们决定自研。
+我们在10多年的市场探索和客户服务中，拓展了很多业务类型，其中包含了网店服务、商标服务、企业服务和代运营等B端市场的热门业务，在对接客户的过程中，发现解决“企业-员工-客户”连接的问题，离不开CRM，但调研了市面上的大部分CRM系统，发现很少有系统能完美符合我们如此复杂多样的业务场景，所以我们决定自研。
 
-在实际的系统应用中，我们有迭代了很多附加功能用来更贴合不同业务场景下的员工使用；这期间我们也有很多想法，有的我们做了一些功能落地。
+在实际的系统应用中，我们又迭代了很多附加功能用来更贴合不同业务场景下的员工使用；这期间我们也有很多想法，有的我们做了一些功能落地。
 
 * 比如用AI分析员工的能力和进阶的建议，我们希望AI能帮助我们把更多员工变为销冠。
 * 比如用AI帮助员工做客户总结、客户标签、降低员工的操作成本，提高客户的管理效率。
@@ -153,3 +150,8 @@
 **圆弧SCRM和普通SCRM有什么不同？**
 
 我们在SCRM的基础功能模块上，增加了AI能力，从员工管理，客户管理，日常跟进，能力判定等各个方面都由AI做了协同处理，你可以理解为圆弧更像是SCRM+AI能力的开放功能增强版。 同时圆弧在SCRM基础上做开放接口，方便企业将原有系统更好的和SCRM系统进行融合。
+
+**联系我们**
+
+![](https://public.yuzhua.com/ai-analysis-work-wechat/up/zrz.png)
+
