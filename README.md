@@ -153,5 +153,5 @@
 
 **联系我们**
 
-![](https://public.yuzhua.com/ai-analysis-work-wechat/up/zrz.png)
+![](https://public.yuzhua.com/ai-analysis-work-wechat/up/zrz.jpg)
 
