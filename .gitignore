@@ -1,0 +1,9 @@
+/.idea
+/vendor
+/app/web/nginx.htaccess
+/app/web/.htaccess
+/.env.dev
+/composer.lock
+/.env
+/macos-arm64-tunnel
+/linux-arm64-tunnel

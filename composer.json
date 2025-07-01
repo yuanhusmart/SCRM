@@ -1,0 +1,75 @@
+{
+    "name": "yuzhua/work-wechat-api",
+    "description": "企业微信API",
+    "homepage": "https://www.yuzhua.com/",
+    "type": "project",
+    "license": "四川鱼爪网络科技有限公司版权所有",
+    "require": {
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-openssl": "*",
+        "ext-fileinfo": "*",
+        "ext-libxml": "*",
+        "ext-dom": "*",
+        "ext-bcmath": "*",
+        "yidas/yii2-bower-asset": "^2.0",
+        "yiisoft/yii2": "2.0.35",
+        "yiisoft/yii2-redis": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-mongodb": "^2.1",
+        "guzzlehttp/guzzle": "~6.0",
+        "aliyuncs/oss-sdk-php": "^2.4",
+        "vlucas/phpdotenv": "^5.3",
+        "yiisoft/yii2-queue": "^2.3",
+        "godruoyi/php-snowflake": "^1.0",
+        "phpoffice/phpspreadsheet": "^1.9",
+        "qiniu/php-sdk": "^7.3",
+        "php-amqplib/php-amqplib": "^3.0",
+        "ext-mongodb": "*",
+        "inhere/php-validate": "^2.8",
+        "alibabacloud/client": "^1.5",
+        "yurunsoft/chinese-util": "^2.0",
+        "jonahgeorge/jaeger-client-php": "^1.3",
+        "ext-redis": "*",
+        "alibabacloud/sdk": "^1.8",
+        "alibabacloud/dysmsapi": "^1.8",
+        "aliyun/aliyun-tablestore-sdk-php": "^5.1",
+        "sizeg/yii2-jwt": "^2.0",
+        "nesbot/carbon": "^1.6",
+        "ext-amqp": "*",
+        "illuminate/support": "^5.8",
+        "orhanerday/open-ai": "^5.3",
+        "cebe/markdown": "^1.2"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.1.0",
+        "yiisoft/yii2-gii": "^2.2",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "phpunit/phpunit": "~6.5.5",
+        "codeception/base": "^2.4.0",
+        "codeception/verify": "~1.0.0",
+        "symfony/browser-kit": "^6.0 || >=2.7 <=4.2.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "kylekatarnls/update-helper": false
+        }
+    },
+    "autoload": {
+        "files": [
+            "common/helpers/Constants.php"
+        ]
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        },
+        "illuminate/support": {
+            "type": "path",
+            "url": "./packages/illuminate/support"
+        }
+    }
+}
