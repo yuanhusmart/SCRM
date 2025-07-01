@@ -99,6 +99,43 @@
 | Tablestore | 阿里云提供的Serverless分布式NoSQL数据库服务 |
 | OSS | 对象存储 |
 
+### 3\. 后端代码部署
+
+#### 安装部署
+
+```
+git clone git@gitee.com:yuanhusmart/scrm.git
+cd scrm
+git fetch origin xxxx:xxxx
+git checkout xxxx
+
+chmod 777 -R ./runtime
+chmod 777 -R ./app/runtime
+chmod 777 -R ./console/runtime
+
+composer install
+```
+
+#### Nginx配置
+
+```
+server {
+    listen 80;
+    server_name scrm.com;
+    root /your/path/to/scrm;
+    index index.php;
+    location / {
+        try_files $uri $uri/ /index.php$is_args$args;
+    }
+    location ~ \.php$ {
+        fastcgi_pass 127.0.0.1:9100;
+        fastcgi_index index.php;
+        include fastcgi.conf;
+    }
+}
+```
+
+
 ## 四、  系统截图
 
 | 模块 | 图例 | 图例 |
