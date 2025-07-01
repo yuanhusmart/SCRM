@@ -1,9 +1,9 @@
 {
-    "name": "yuzhua/work-wechat-api",
-    "description": "企业微信API",
-    "homepage": "https://www.yuzhua.com/",
+    "name": "yuanhu/scrm",
+    "description": "",
+    "homepage": "https://www.yuanhu.com/",
     "type": "project",
-    "license": "四川鱼爪网络科技有限公司版权所有",
+    "license": "四川圆弧信息科技有限公司",
     "require": {
         "ext-pdo": "*",
         "ext-json": "*",
